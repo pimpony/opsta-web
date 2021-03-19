@@ -1,0 +1,6 @@
+services:
+  web:
+    build: .
+    image: ghcr.io/pimpony/opsta-web:dev
+    ports:
+      - "8080:80"
